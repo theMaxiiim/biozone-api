@@ -6,7 +6,9 @@ const server = restify.createServer();
 
 // middleware
 server.use(restify.plugins.bodyParser());
-server.use(restify.plugins.queryParser({ mapParams: true }));
+server.use(restify.plugins.queryParser({
+  mapParams: true
+}));
 
 server.listen(config.PORT, () => {
   mongoose.set('useFindAndModify', false);
