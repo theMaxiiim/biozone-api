@@ -20,7 +20,7 @@
   "homepage": "https://github.com/theMaxiiim/db_brStack#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "mongoose": "^5.6.6",
+    "mongoose": "^5.7.5",
     "mongoose-timestamp": "^0.6.0",
     "restify": "^8.3.3",
     "restify-errors": "^8.0.0"
